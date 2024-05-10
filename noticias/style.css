@@ -9,9 +9,6 @@
     font-family: var(--font-family);
 }
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #ffffff;
     color: #000000;
   }
@@ -26,17 +23,32 @@ body {
     text-align: center;
     margin-bottom: 20px;
   }
+  .botao__menu {
+    position: absolute;
+    width: 30px;
+    top: 4%; right: 97%;
+    
+}
   .logo {
     position: absolute;
     width: 60px;
-    top:5% ;left: 7%;
+    top:3% ;left: 7%;
 }
   .menutexto {
     color: #fff;
     position: relative;
-    top: 20px; left: 50px;
+    top: 40px; left: 60px;
   }   
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
   
+  .nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
   .content {
     text-align: center;
   }
@@ -61,23 +73,59 @@ body {
   input[type="text"] {
     padding: 8px;
     border: 1px solid #ccc;
-    border-radius: 20px;
+    border-radius: 20px 0px 0px 20px ;
     outline: none;
   }
   
   button {
     padding: 8px 16px;
-    background-color: #1f9c00;
+    background-color: green;
     color: #fff;
     border: 1px solid #1f9c00bb;
-    border-radius: 5px;
+    border-radius: 0px 20px 20px 0px ;
     cursor: pointer;
     outline: none;
-    margin-left: 10px;
+
   }
   
   button:hover {
     background-color: #166e00;
     border-color: #1f9c00f9;
   }
+  .navbar {
+    background-color: #1f9c00;
+    color: #000000;
+    padding: 5px 10px;
+  }
   
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  body{
+    
+  }
+  .corpo{
+ 
+  }
+  .corpo__titulo{
+    text-align: center;
+  }
+  .corpo__imagem1{
+    width: 500px;
+    height: 300px;
+    justify-content:center                 ;
+  }
+  .sessao1{
+    background-color: lightgray;
+    max-width: 500px;
+    align-content: baseline;
+  }
