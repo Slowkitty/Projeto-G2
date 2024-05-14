@@ -110,12 +110,16 @@
     border-radius: 15px;
   }
   .sessao1{
+    flex-direction: row;
+  }
+  .artigo1{
     background-color: lightgray;
     max-width: 500px;
     align-content: baseline;
     border-radius: 15px;
+    align-items: center;
   }
-  .sessao2{
+  .artigo2{
     background-color: lightgray;
     max-width: 500px;
     align-content: baseline;
@@ -131,5 +135,5 @@
   }
   
   .footer p {
-
+    
   }
