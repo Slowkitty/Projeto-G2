@@ -28,7 +28,7 @@ body {
 
 footer {
   background-color: #333;
-  bottom: -300px;
+  bottom: -350px;
   position: absolute;
   width: 100%;
   text-align: center;
@@ -266,6 +266,7 @@ input:checked ~ .slide {
   /* Estilos para o texto dentro da box */
   .minha-box h2 {
       margin-bottom: 10px;
+      
   }
 
   .minha-box p {
