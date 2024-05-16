@@ -281,14 +281,11 @@ input:checked ~ .slide {
     top: 0%;
     width: 540px;
     height: 270px;
-    transition: transform 0.3s ease; /* Adicionando transição para suavizar o zoom; */
+    transition: transform 0.3s ease-in-out; /* Adicionando transição para suavizar o zoom; */
     transform-origin: center center; /* Definindo o ponto de origem do zoom */
   }
 
-  .RSenchente1:hover {
-    transform: scale(1.1); /* Zoom de 20% */
-    cursor: pointer;
-  }
+  
   
       .minha-box2 {
         position: absolute;
@@ -305,6 +302,12 @@ input:checked ~ .slide {
         justify-content: center;
         align-items: center;
     }
+    .minha-box2:hover {
+      transform: scale(1.1); /* Zoom de 20% */
+      cursor: pointer;
+      transition: transform 0.3s ease-in-out;
+    }
+    
 
     .noticiamare {
       position: relative;
@@ -335,6 +338,11 @@ input:checked ~ .slide {
       justify-content: center;
       align-items: center;
   }
+  .minha-box3:hover {
+    transform: scale(1.1); /* Zoom de 20% */
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
 
   .petroowner {
     border-radius: 25px;
@@ -344,14 +352,11 @@ input:checked ~ .slide {
     top: 0%;
     width: 540px;
     height: 270px;
-    transition: transform 0.3s ease; /* Adicionando transição para suavizar o zoom; */
+    transition: transform 0.3s ease-in-out; /* Adicionando transição para suavizar o zoom; */
     transform-origin: center center; /* Definindo o ponto de origem do zoom */
   }
 
-  .petroowner:hover {
-    transform: scale(1.1); /* Zoom de 20% */
-    cursor: pointer;
-  }
+  
 
   .petroinfo {
     position: relative;
@@ -382,7 +387,11 @@ input:checked ~ .slide {
     justify-content: center;
     align-items: start;
 }
-
+.minha-box4:hover {
+  transform: scale(1.1); /* Zoom de 20% */
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
 .eguagg {
   border-radius: 25px;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
@@ -391,14 +400,11 @@ input:checked ~ .slide {
   top: 0%;
   width: 540px;
   height: 280px;
-  transition: transform 0.3s ease; /* Adicionando transição para suavizar o zoom; */
+  transition: transform 0.3s ease-in-out; /* Adicionando transição para suavizar o zoom; */
   transform-origin: center center; /* Definindo o ponto de origem do zoom */
 }
 
-.eguagg:hover {
-  transform: scale(1.1); /* Zoom de 20% */
-  cursor: pointer;
-}
+
 
 .eguanoticia {
     position: relative;
