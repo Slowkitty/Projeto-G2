@@ -96,7 +96,7 @@ nav .listaheader li {
 }
 
 .box {
-  position: fixed;
+  position: absolute;
   top: 0.3%;
   left: 87%;
   height: 13px;
@@ -124,6 +124,7 @@ nav .listaheader li {
   transition: 0.8s;
   background: transparent;
   font-size: 16px;
+
 }
 
 .lupona {
@@ -139,7 +140,7 @@ nav .listaheader li {
 }
 
 .loginico {
-  position: fixed;
+  position: absolute;
   padding: 7px;
   top: 0%;
   left: 81%;
@@ -148,7 +149,7 @@ nav .listaheader li {
 }
 
 .logintext {
-  position: fixed;
+  position: absolute;
   color: #fff;
   top: 1%;
   left: 83%;
